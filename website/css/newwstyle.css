@@ -1,0 +1,115 @@
+.ttm-50 {
+    padding: 45px 0;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-lg-1 {
+    order: 1;
+}
+
+.order-lg-2 {
+    order: 2;
+}
+
+.ttm-mb-50 {
+    padding-bottom: 50px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.mission-vission-area p {
+    font-size: 16px !important;
+    line-height: 28px !important;
+}
+
+.section-title .title-desc ul li {
+    list-style-type: none !important;
+}
+
+.section-title .title-desc h3 {
+    margin-bottom: 0;
+}
+
+/* .section-title .title-desc h2 {
+    margin-bottom: 5px;
+} */
+
+/* website in nepal-web development*/
+@media (max-width: 991px) {
+    .featured-icon-box.left-icon .featured-content.padding-0 {
+        padding-left: 0;
+    }
+
+    .order-1 {
+        order: 2;
+    }
+
+    .order-2 {
+        order: 1;
+    }
+
+    .order-lg-1 {
+        order: 2;
+    }
+
+    .order-lg-2 {
+        order: 1;
+    }
+
+    .ttm-50 {
+        padding: 20px 0;
+    }
+
+    .section-title .title-header {
+        margin-bottom: 0;
+    }
+
+    .section-title h1.title {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+    .section-title .title-desc p {
+        margin-bottom: 0.75rem;
+    }
+
+    .featured-icon-box.flex-columns {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .seo-modalbox .row,
+    .inquiry-section-area .row {
+        flex-direction: row !important;
+    }
+
+    /*contact*/
+    iframe {
+        height: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title h1.title {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .inquiry-section-area .modal-dialog {
+        max-width: 100% !important;
+    }
+}

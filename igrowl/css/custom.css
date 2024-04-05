@@ -1,0 +1,52 @@
+.igrowl-title, .igrowl-message {
+    font-size: 14px;
+}
+
+.igrowl-message {
+    line-height: 18px;
+}
+
+.i-times:before {
+    content: "\e600";
+    font-size: 20px !important;
+}
+.igrowl{
+    z-index: 99999;
+}
+
+
+/*custom-css*/
+.custom-block{
+    position: relative;
+}
+.custom-block .custom-click{
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: -67px;
+    transform: translateY(-50%);
+    z-index: 11;
+    background: #45b34a;
+    padding: 8px 24px;
+    color: #fff;
+    animation-name: blinker;
+ animation-duration: 2s;
+ animation-timing-function: ease-in-out;
+ animation-iteration-count: infinite;
+    transform: rotate(90deg);
+    
+}
+
+@keyframes blinker {  
+ 0% { opacity: 1.0; 
+     margin-top: -50px;
+ }
+ 50%{
+     opacity: 0.7; 
+     margin-top: 0px;
+ }
+ 100% { opacity: 1; 
+     margin-top: -50px;
+ }
+
+}
